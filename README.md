@@ -10,4 +10,4 @@ Tested under:
 - Vagrant default/sample Linux VM `hashicorp/precise32`
 - Babun `1.2.0` Cygwin `1.7.35`
 
-The resulting GCC has been tested succesfully (using production code) under OSX and Vagrant VM only.
+The resulting GCC has been tested successfully (using production code) under OSX and Vagrant VM only.
