@@ -70,6 +70,7 @@ case "$OSTYPE" in
 		if [ -n "$BABUN_HOME" ]; then
 			pact install gcc-g++ || exit 1
 			pact update gcc-core || exit 1
+			pact update git || exit 1
 		fi
 		#
 		GCC_PREFIX="/usr"
@@ -240,7 +241,7 @@ popd
 # GIT
 #
 case "$OSTYPE" in
-	linux*|cygwin*)
+	linux*)
 		wget -O "git-${GIT_VERSION}.tar.gz" -nc "https://github.com/git/git/archive/v${GIT_VERSION}.tar.gz"
 		untar "git-${GIT_VERSION}"
 		pushd "git-${GIT_VERSION}"
