@@ -12,4 +12,4 @@ Tested under:
 
 ## Note
 
-The resulting GCC has been tested successfully (using **production code**) under OSX and Vagrant VM only.
+The resulting GCC has been tested successfully using **production code**.
